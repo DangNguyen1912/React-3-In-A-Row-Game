@@ -1,0 +1,53 @@
+body {
+    background-color: bisque;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#sample, #random{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+}
+
+.zero {
+    background-color: white;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: blue;
+}
+
+.lock:hover {
+    cursor: not-allowed;
+}
+
+.incorrect {
+    box-shadow: inset 0 0 0 3px #ffeb3b
+}
